@@ -1,0 +1,38 @@
+.header {
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ccc;
+
+  h2 {
+    & .link {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    & li {
+      list-style: none;
+      display: inline-block;
+      padding: 0 1rem;
+      & .link {
+        text-decoration: none;
+        color: black;
+      }
+      & .link:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
+.select {
+  color: rgb(128, 50, 61);
+}
+
+.default {
+  color: #b3b3b3;
+  background-color: transparent;
+}

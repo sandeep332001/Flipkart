@@ -1,0 +1,19 @@
+.input {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  & input {
+    height: 2rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+  }
+  & label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  & input:hover,
+  &input:active {
+    box-shadow: 0 0 3px 2px rgba(17, 55, 182, 0.623);
+  }
+}

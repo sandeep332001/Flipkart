@@ -1,0 +1,55 @@
+.sign-up {
+  width: 40vw;
+  margin: 0 auto;
+
+  height: 90vh;
+  & form {
+    margin: 5rem 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+
+    & p {
+      margin: 0;
+      font-size: 1rem;
+      color: #696868;
+    }
+    & input {
+      height: 2rem;
+      padding-left: 1rem;
+      font-size: 1.5rem;
+      border-radius: 5px;
+    }
+    & label {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+    }
+    & input:hover,
+    &input:active {
+      box-shadow: 0 0 3px 2px rgba(17, 55, 182, 0.623);
+    }
+
+    & .fullname {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      //   width: 40%;
+      & div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    & button {
+      //   display: flex;
+      margin-top: 2rem;
+      padding: 0.5rem 1rem;
+      background-color: rgb(10, 169, 243);
+      border-radius: 5px;
+      width: 5rem;
+
+      &:hover {
+        background-color: rgb(22, 238, 155);
+      }
+    }
+  }
+}
